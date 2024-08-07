@@ -1,0 +1,90 @@
+body{
+    font-family: arial;
+}
+.topnav{
+    position: fixed;
+    background-color: #f7f7f7;
+    width: 100%;
+    border:1px solid #d0cdcd;
+    top: 0;
+}
+.topnav a{
+    float: right;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    color:dodgerblue;
+    margin-right: 20px;
+}
+.sidenav {
+    height: 100%;
+    width: 190px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgb(19,40,99),rgb(62,13,74));
+    overflow-x: hidden;
+   
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+  }
+.sidenav h4{
+    background-color: rgb(2, 2, 74);
+    color: #f7f7f7;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px ;
+}
+main{
+  
+    margin: 50px 40px 48px 220px;
+}
+.admin{
+    border: 2px solid #d0cdcd;
+    padding: 40px;
+
+}
+h1{
+    font-weight: 400;
+}
+h6{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d0cdcd;
+    font-size: 12px;
+    padding: 10px;
+   margin-top: 0;
+}
+p{
+    line-height: 20px;
+    font-size: 12px;
+}
+.flex{
+    display: flex;
+    margin: 20px 0;
+    column-gap: 20px;
+}
+.card{
+    border: 2px solid #d0cdcd;
+}
+.bottom-card{
+    padding: 0 10px 30px;
+}
+.green{
+    text-decoration: none;
+    color: #f7f7f7;
+    background-color: rgb(39, 161, 39);
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 8px;
+}

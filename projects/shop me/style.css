@@ -1,0 +1,111 @@
+body{
+    font-family: arial;
+}
+
+
+.sidenav{
+    background: linear-gradient(to bottom right, #2db385, #79d36f);
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+}
+.left{
+    float: left;
+    margin: 20px;
+    font-weight: 500;
+}
+.right{
+    float: right;
+    margin: 10px;
+}
+.pink{
+    border-radius: 50%;
+    background-color: #ff929f;
+    height: 60px;
+    width: 60px;
+}
+.admin{
+    position: relative;
+    margin: 70px;
+    
+}
+figcaption{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    width: 150px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    text-indent: 20px;
+}
+.links img{
+    width: 33px;
+    padding: 5px;
+}
+.bottomnav{
+    font-size: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.welcome{
+    margin-left: 200px;
+    background-color: #f3f2f2;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 50px;
+    color: rgb(139, 137, 137);
+}
+.welcome h5{
+    margin-bottom: 0;
+}
+.welcome p{
+    font-size: 10px;
+    margin-top: 3px;
+}
+.flex{
+    display: flex;
+    position: fixed;
+    color: white;
+    margin-left: 275px;
+    margin-top: 150px;
+    column-gap: 60px;
+}
+.card{
+    border-radius: 10px;
+    background: linear-gradient(to bottom right,#79d26f, #30b485);
+    width: 175px;
+    height: 110px;
+    text-indent: 20px;
+}
+.card a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+.card img{
+    height: 50px;
+}
+.card h6{
+    margin-bottom: 10px;
+    font-weight: 300;
+}

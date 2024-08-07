@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    font-family: arial;
+}
+.background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/background.jpg);
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.navbar{
+    display: flex;
+    color: white;
+    background-color: #424244b0;
+    min-width: 1019px;
+    align-items: center;
+}
+.nav-left{
+    margin-left: 40px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+}
+.nav-right a{
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    padding: 10px;
+}
+.text{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.text h1{
+    font-size: 45px;
+    margin-bottom: 0;
+    font-family: "bookman old style";
+    font-weight: 300;
+}
+.text h4{
+    font-weight: 300;
+}
+.container{
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 40px;
+    margin-bottom: 50px;
+}
+.card{
+    width: 260px;
+    text-align: center;
+    border-color: white;
+}
+legend{
+    font-family: "bookman old style";
+    font-weight: 500;
+}
+p{
+    font-size: 12px;
+    padding: 0 40px;
+}
+.green{
+    color: #26b756;
+}
+.blue{
+    color:#018dc8;
+}
+.red{
+    color:#e74b3c;
+}
+.navy{
+    color:#354a5f;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.gbtn{
+    background-color: #26b756;
+}
+.bbtn{
+    background-color: #018dc8;
+}
+.rbtn{
+    background-color: #e74b3c;
+}
+.nbtn{
+    background-color: #354a5f;
+}

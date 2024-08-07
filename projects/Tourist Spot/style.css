@@ -1,0 +1,72 @@
+body{
+    background-image: url(images/tourist\ spot.jpg);
+    background-repeat: no-repeat;
+    font-family: arial;
+    margin: 30px;
+}
+#top-nav{
+    display: flex;
+    flex-flow: row-reverse;
+}
+#top-nav a, #container a{
+    background-color: #2ea5ca;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px outset #43b9dc;
+}
+h1{
+    text-align: center;
+    margin-top: 90px;
+    font-size: 40px;
+}
+hr{
+    border: 1px solid #ededed;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    width: 30%;
+    max-width: 330px;
+}
+h5{
+    background-color: #dcdcdc;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 16px;
+}
+h4{
+    background-color: #ededed;
+    padding: 15px 0;
+    margin: 0;
+    font-size: 18px;
+}
+.gray{
+    color: #a7a6a6;
+    font-size: 12px;
+}
+.card .btn{
+    background-color: #ededed;
+    padding: 30px 0;
+}
+
+
+footer #copyright{
+    float: left;
+    font-size: 16px;
+}
+footer #bottom-nav{
+    float: right;
+    margin-top: 15px;
+}
+footer a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #2ea5ca;
+    margin-left: 20px;
+}
